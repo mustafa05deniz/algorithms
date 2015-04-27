@@ -1,3 +1,6 @@
+
+# Merge sort yani kabuk sıralama kodudur . 
+
 def bol(liste):
     if len(liste)>1:
         orta_nokta=len(liste)//2

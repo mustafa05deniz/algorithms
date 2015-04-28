@@ -1,1 +1,18 @@
+#Algoritma Dizayn Teknikleri ;
 
+
+# Çizelğeleme Problemleri
+# Gredy Algoritmaları 
+# Böl-Birleştir Algoritmaları
+  # Maksimum ve minumum bulma problemleri 
+  
+  # Problemi s[1,..n] dizinindeki maksimum ve minumum elemanları bulmaya indirgeyelim
+  
+  def maksimum(S):  # S "n" elamanlı bir dizi,listedir .
+      maks = s[0]   #listenin ilk elemanını en büyük elemana atayalım .
+      for i in S:
+          if maks < s[i]:
+              maks=s[i]
+          else:
+              return maks
+      

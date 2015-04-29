@@ -4,7 +4,7 @@
     # Liste Yapısı 
     # Fonksiyon Yapısı 
     
-    
+
 graph = {'A': ['B', 'C'],    # A ' dan B' ye ve C' ye gidilebilir olduğunu gösterir 
          'B': ['A', 'D', 'E'], 
          'C': ['A', 'F'],

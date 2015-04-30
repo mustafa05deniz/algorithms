@@ -56,4 +56,8 @@ def dfs_paths(graph, start, goal, path=None):
 list(dfs_paths(graph, 'C', 'F')) # [['C', 'F'], ['C', 'A', 'B', 'E', 'F']]
 
          
+         
+         http://interactivepython.org/runestone/static/pythonds/Graphs/graphdfs.html
+         https://algocoding.wordpress.com/2014/08/25/depth-first-search-java-and-python-implementation/
+         http://ceviriler.istihza.com/
 

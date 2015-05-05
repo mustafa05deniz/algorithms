@@ -5,6 +5,4 @@ def sec(n,r):
         return sec(n-1,r-1) + sec(n-1,r)
         
         
-# Kod parçacığının kullanım alanlarını ve geniş çaplı anlatımı 
-adres = https://mustafa05deniz.wordpress.com/2015/05/05/python-ile-kombinasyon-problemleri-cozumleri-ve-algoritmalari/
 

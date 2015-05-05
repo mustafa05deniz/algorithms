@@ -1,8 +1,6 @@
+
 def sec(n,r):
     if n==r or r==0 :
         return 1
     else:
         return sec(n-1,r-1) + sec(n-1,r)
-        
-        
-

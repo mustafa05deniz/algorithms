@@ -4,3 +4,5 @@ def sec(n,r):
         return 1
     else:
         return sec(n-1,r-1) + sec(n-1,r)
+        
+        

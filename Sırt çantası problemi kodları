@@ -1,0 +1,11 @@
+
+def knapsack(i,j):
+    if ( j==0):
+        return True
+    else:
+        if i == [] :
+            return False
+        else:
+            return knapsack(i-1,j-Si) or knapsack(i-1,j)
+            
+            
